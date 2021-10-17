@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1779C28F25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1779C28E25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1779C29425D796ED00B0A8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779C29325D796ED00B0A8D9 /* Assets.xcassets */; };
+		1779C29B25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1779C29A25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1779C2A025D796ED00B0A8D9 /* ZodiacDailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C29F25D796ED00B0A8D9 /* ZodiacDailyApp.swift */; };
+		1779C2A225D796ED00B0A8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C2A125D796ED00B0A8D9 /* ContentView.swift */; };
+		1779C2A425D796ED00B0A8D9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C2A325D796ED00B0A8D9 /* NotificationController.swift */; };
+		1779C2A625D796ED00B0A8D9 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C2A525D796ED00B0A8D9 /* NotificationView.swift */; };
+		1779C2A825D796ED00B0A8D9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C2A725D796ED00B0A8D9 /* ComplicationController.swift */; };
+		1779C2AA25D796ED00B0A8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779C2A925D796ED00B0A8D9 /* Assets.xcassets */; };
+		1779C2AD25D796ED00B0A8D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779C2AC25D796ED00B0A8D9 /* Preview Assets.xcassets */; };
+		1779C2C125D799DC00B0A8D9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779C2C025D799DC00B0A8D9 /* DataModel.swift */; };
+		17E885AB26721F4400568994 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E885AA26721F4400568994 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1779C29025D796EB00B0A8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1779C28425D796EB00B0A8D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1779C28D25D796EB00B0A8D9;
+			remoteInfo = "ZodiacDaily WatchKit App";
+		};
+		1779C29C25D796ED00B0A8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1779C28425D796EB00B0A8D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1779C29925D796ED00B0A8D9;
+			remoteInfo = "ZodiacDaily WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1779C2B525D796EE00B0A8D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1779C29B25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779C2B925D796EE00B0A8D9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1779C28F25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1779C28A25D796EB00B0A8D9 /* ZodiacDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZodiacDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779C28E25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZodiacDaily WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779C29325D796ED00B0A8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1779C29525D796ED00B0A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1779C29A25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZodiacDaily WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1779C29F25D796ED00B0A8D9 /* ZodiacDailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacDailyApp.swift; sourceTree = "<group>"; };
+		1779C2A125D796ED00B0A8D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1779C2A325D796ED00B0A8D9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1779C2A525D796ED00B0A8D9 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1779C2A725D796ED00B0A8D9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1779C2A925D796ED00B0A8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1779C2AC25D796ED00B0A8D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1779C2AE25D796ED00B0A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1779C2AF25D796ED00B0A8D9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1779C2C025D799DC00B0A8D9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		17E885AA26721F4400568994 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1779C29725D796ED00B0A8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1779C28325D796EB00B0A8D9 = {
+			isa = PBXGroup;
+			children = (
+				1779C29225D796EB00B0A8D9 /* ZodiacDaily WatchKit App */,
+				1779C29E25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension */,
+				1779C28B25D796EB00B0A8D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1779C28B25D796EB00B0A8D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1779C28A25D796EB00B0A8D9 /* ZodiacDaily.app */,
+				1779C28E25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app */,
+				1779C29A25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1779C29225D796EB00B0A8D9 /* ZodiacDaily WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1779C29325D796ED00B0A8D9 /* Assets.xcassets */,
+				1779C29525D796ED00B0A8D9 /* Info.plist */,
+			);
+			path = "ZodiacDaily WatchKit App";
+			sourceTree = "<group>";
+		};
+		1779C29E25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1779C29F25D796ED00B0A8D9 /* ZodiacDailyApp.swift */,
+				1779C2A125D796ED00B0A8D9 /* ContentView.swift */,
+				1779C2A325D796ED00B0A8D9 /* NotificationController.swift */,
+				1779C2A525D796ED00B0A8D9 /* NotificationView.swift */,
+				1779C2A725D796ED00B0A8D9 /* ComplicationController.swift */,
+				1779C2A925D796ED00B0A8D9 /* Assets.xcassets */,
+				1779C2AE25D796ED00B0A8D9 /* Info.plist */,
+				1779C2AF25D796ED00B0A8D9 /* PushNotificationPayload.apns */,
+				1779C2AB25D796ED00B0A8D9 /* Preview Content */,
+				1779C2C025D799DC00B0A8D9 /* DataModel.swift */,
+				17E885AA26721F4400568994 /* LoadingView.swift */,
+			);
+			path = "ZodiacDaily WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1779C2AB25D796ED00B0A8D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1779C2AC25D796ED00B0A8D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1779C28925D796EB00B0A8D9 /* ZodiacDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779C2BA25D796EE00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily" */;
+			buildPhases = (
+				1779C28825D796EB00B0A8D9 /* Resources */,
+				1779C2B925D796EE00B0A8D9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1779C29125D796EB00B0A8D9 /* PBXTargetDependency */,
+			);
+			name = ZodiacDaily;
+			productName = ZodiacDaily;
+			productReference = 1779C28A25D796EB00B0A8D9 /* ZodiacDaily.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1779C28D25D796EB00B0A8D9 /* ZodiacDaily WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779C2B625D796EE00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily WatchKit App" */;
+			buildPhases = (
+				1779C28C25D796EB00B0A8D9 /* Resources */,
+				1779C2B525D796EE00B0A8D9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1779C29D25D796ED00B0A8D9 /* PBXTargetDependency */,
+			);
+			name = "ZodiacDaily WatchKit App";
+			productName = "ZodiacDaily WatchKit App";
+			productReference = 1779C28E25D796EB00B0A8D9 /* ZodiacDaily WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1779C29925D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1779C2B225D796ED00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily WatchKit Extension" */;
+			buildPhases = (
+				1779C29625D796ED00B0A8D9 /* Sources */,
+				1779C29725D796ED00B0A8D9 /* Frameworks */,
+				1779C29825D796ED00B0A8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZodiacDaily WatchKit Extension";
+			productName = "ZodiacDaily WatchKit Extension";
+			productReference = 1779C29A25D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1779C28425D796EB00B0A8D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1779C28925D796EB00B0A8D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1779C28D25D796EB00B0A8D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1779C29925D796ED00B0A8D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1779C28725D796EB00B0A8D9 /* Build configuration list for PBXProject "ZodiacDaily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1779C28325D796EB00B0A8D9;
+			productRefGroup = 1779C28B25D796EB00B0A8D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1779C28925D796EB00B0A8D9 /* ZodiacDaily */,
+				1779C28D25D796EB00B0A8D9 /* ZodiacDaily WatchKit App */,
+				1779C29925D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1779C28825D796EB00B0A8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779C28C25D796EB00B0A8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779C29425D796ED00B0A8D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1779C29825D796ED00B0A8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779C2AD25D796ED00B0A8D9 /* Preview Assets.xcassets in Resources */,
+				1779C2AA25D796ED00B0A8D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1779C29625D796ED00B0A8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1779C2A425D796ED00B0A8D9 /* NotificationController.swift in Sources */,
+				1779C2A225D796ED00B0A8D9 /* ContentView.swift in Sources */,
+				1779C2A825D796ED00B0A8D9 /* ComplicationController.swift in Sources */,
+				1779C2A025D796ED00B0A8D9 /* ZodiacDailyApp.swift in Sources */,
+				17E885AB26721F4400568994 /* LoadingView.swift in Sources */,
+				1779C2A625D796ED00B0A8D9 /* NotificationView.swift in Sources */,
+				1779C2C125D799DC00B0A8D9 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1779C29125D796EB00B0A8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1779C28D25D796EB00B0A8D9 /* ZodiacDaily WatchKit App */;
+			targetProxy = 1779C29025D796EB00B0A8D9 /* PBXContainerItemProxy */;
+		};
+		1779C29D25D796ED00B0A8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1779C29925D796ED00B0A8D9 /* ZodiacDaily WatchKit Extension */;
+			targetProxy = 1779C29C25D796ED00B0A8D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1779C2B025D796ED00B0A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1779C2B125D796ED00B0A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1779C2B325D796EE00B0A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ZodiacDaily WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ZodiacDaily WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1779C2B425D796EE00B0A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ZodiacDaily WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ZodiacDaily WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1779C2B725D796EE00B0A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				IBSC_MODULE = ZodiacDaily_WatchKit_Extension;
+				INFOPLIST_FILE = "ZodiacDaily WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1779C2B825D796EE00B0A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				IBSC_MODULE = ZodiacDaily_WatchKit_Extension;
+				INFOPLIST_FILE = "ZodiacDaily WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1779C2BB25D796EE00B0A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1779C2BC25D796EE00B0A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D2777Y3T2Q;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liveratti.apps.ios.ZodiacDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1779C28725D796EB00B0A8D9 /* Build configuration list for PBXProject "ZodiacDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779C2B025D796ED00B0A8D9 /* Debug */,
+				1779C2B125D796ED00B0A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779C2B225D796ED00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779C2B325D796EE00B0A8D9 /* Debug */,
+				1779C2B425D796EE00B0A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779C2B625D796EE00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779C2B725D796EE00B0A8D9 /* Debug */,
+				1779C2B825D796EE00B0A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1779C2BA25D796EE00B0A8D9 /* Build configuration list for PBXNativeTarget "ZodiacDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1779C2BB25D796EE00B0A8D9 /* Debug */,
+				1779C2BC25D796EE00B0A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1779C28425D796EB00B0A8D9 /* Project object */;
+}
